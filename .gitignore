@@ -1,0 +1,11 @@
+.settings
+
+.externalToolBuilders/
+
+Temp/
+
+tmp/
+
+*.snap
+
+*.bak
