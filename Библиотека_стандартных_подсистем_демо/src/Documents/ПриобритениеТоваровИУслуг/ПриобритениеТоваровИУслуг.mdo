@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a992f824-bc7a-4be8-b1c6-e6c87336d93a">
+  <producedTypes>
+    <objectType typeId="7692f629-b0a9-4bdf-933c-85db2d8d4da3" valueTypeId="7b5b241b-a1b8-4263-bb04-7748716e23fa"/>
+    <refType typeId="a846e590-edb6-4d5a-a6d4-12c8782d1e9b" valueTypeId="607cb5ea-0f3f-4a10-bfdb-e74a3703c569"/>
+    <selectionType typeId="1b662ea4-8cff-42a4-b138-74844cda4e09" valueTypeId="d1866796-862e-4197-ba79-e694877856c8"/>
+    <listType typeId="375a79a6-321d-4e7a-8e02-5094aedd7564" valueTypeId="9137a63a-3598-485f-a653-1ae2b4f07345"/>
+    <managerType typeId="28f594ad-15c4-49da-963e-b32f861d74fe" valueTypeId="aac25063-a22e-4fca-bcec-c9cf2fb82b4d"/>
+  </producedTypes>
+  <name>ПриобритениеТоваровИУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приобритение товаров и услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриобритениеТоваровИУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приобритение товаров и услуг</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приобритение товаров и услуг</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5b5311c1-947b-4b03-bfa3-b94fa6804c2e">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4736a776-d2e0-4c9d-9721-eef2908fc1fb">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0aec36f9-ee7e-41f3-a21b-d17a32b86ee9">
+    <producedTypes>
+      <objectType typeId="96847e73-0dc8-43c4-873f-5fc52c3c21b5" valueTypeId="79a71ced-2f63-451a-955e-8571dc56c8bb"/>
+      <rowType typeId="31191ee8-fa20-48ee-9bd5-1043a2114abd" valueTypeId="818f2e50-f277-46b2-aaf5-d278757a6f85"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="e2b9891d-51e0-4e52-91f4-5861677a5c22">
+      <name>СкладскоеПомещение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Складское помещение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СкладскиеПомещения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ПриобритениеТоваровИУслуг.Attribute.Склад</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="31de6647-8524-4481-b118-681e68394a32">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef._ДемоНоменклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbcc41ba-26df-4a49-b7b5-b7318016ac90">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
