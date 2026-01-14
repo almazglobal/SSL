@@ -98,9 +98,9 @@
   <subsystems>Subsystem.АдминистрированиеСервиса</subsystems>
   <subsystems>Subsystem.ИнтернетПоддержкаПользователей</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+  <subsystems>Subsystem.ПримерыПодключения</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ТехнологияСервиса</subsystems>
-  <subsystems>Subsystem.ПримерыПодключения</subsystems>
   <styleItems>StyleItem.АктуальнаяПодпискаЦвет</styleItems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
@@ -2941,6 +2941,8 @@
   <catalogs>Catalog.РолиИсполнителей</catalogs>
   <catalogs>Catalog.СеансыОбменовДанными</catalogs>
   <catalogs>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</catalogs>
+  <catalogs>Catalog.СкладскиеПомещения</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СообщениеSMSПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.СообщенияОбластейДанных</catalogs>
   <catalogs>Catalog.СообщенияСистемы</catalogs>
@@ -2951,6 +2953,8 @@
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТипыИнформацииИнформационногоЦентра</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.Удалить_ДемоОбщиеСведения</catalogs>
+  <catalogs>Catalog.УдалитьОчередьЗаданий</catalogs>
   <catalogs>Catalog.УслугиСервиса</catalogs>
   <catalogs>Catalog.УчетныеЗаписиDSS</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
@@ -2965,10 +2969,6 @@
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
-  <catalogs>Catalog.Удалить_ДемоОбщиеСведения</catalogs>
-  <catalogs>Catalog.УдалитьОчередьЗаданий</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
-  <catalogs>Catalog.СкладскиеПомещения</catalogs>
   <documents>Document._ДемоЗаказПокупателя</documents>
   <documents>Document._ДемоКорректировкаОстатковТоваровВМестахХранения</documents>
   <documents>Document._ДемоНачислениеЗарплаты</documents>
@@ -2989,13 +2989,13 @@
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.НазначениеОпросов</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
+  <documents>Document.ПриобритениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СообщениеSMS</documents>
   <documents>Document.ТелефонныйЗвонок</documents>
   <documents>Document.ЭлектронноеПисьмоВходящее</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
-  <documents>Document.ПриобритениеТоваровИУслуг</documents>
-  <documents>Document.РеализацияТоваровИУслуг</documents>
   <sequences>Sequence._ДемоДвижениеТоваров</sequences>
   <documentJournals>DocumentJournal._ДемоЖурналВсехДокументов</documentJournals>
   <documentJournals>DocumentJournal._ДемоСкладскиеДокументы</documentJournals>
