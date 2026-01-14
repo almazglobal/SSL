@@ -98,6 +98,7 @@
   <subsystems>Subsystem.АдминистрированиеСервиса</subsystems>
   <subsystems>Subsystem.ИнтернетПоддержкаПользователей</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+  <subsystems>Subsystem.ПослеПереимнования</subsystems>
   <subsystems>Subsystem.ПримерыПодключения</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ТехнологияСервиса</subsystems>
@@ -2900,6 +2901,7 @@
   <catalogs>Catalog.ЗначенияСвойствОбъектовИерархия</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.ИмяСправочника</catalogs>
   <catalogs>Catalog.ИнформационныеСсылкиДляФорм</catalogs>
   <catalogs>Catalog.ИсторияПроверкиИКорректировкиДанных</catalogs>
   <catalogs>Catalog.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</catalogs>
@@ -2954,6 +2956,7 @@
   <catalogs>Catalog.ТипыИнформацииИнформационногоЦентра</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.Удалить_ДемоОбщиеСведения</catalogs>
+  <catalogs>Catalog.УдалитьИмяСправочника</catalogs>
   <catalogs>Catalog.УдалитьОчередьЗаданий</catalogs>
   <catalogs>Catalog.УслугиСервиса</catalogs>
   <catalogs>Catalog.УчетныеЗаписиDSS</catalogs>
@@ -2989,6 +2992,7 @@
   <documents>Document.ЗапланированноеВзаимодействие</documents>
   <documents>Document.НазначениеОпросов</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
+  <documents>Document.ПослеПереименования</documents>
   <documents>Document.ПриобритениеТоваровИУслуг</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
